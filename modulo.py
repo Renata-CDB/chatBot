@@ -27,4 +27,16 @@ def ImprimeNome(nome):
     print(idade)  """  
 
 def ImprimeIdade(idade):
-    print("Minha idade é " + str(idade) )  
+    print("Minha idade é " + str(idade) ) 
+
+def ImprimeDocumento(documento):
+    print(" Meu documento é " + str(documento))
+
+def ImprimeLetra(letra):
+    print("Minha letra preferida é " + letra)
+
+def ImprimeDataNiver(data):
+    print(" Meu aniversário é " + (data))
+
+
+
