@@ -7,4 +7,5 @@ modulo.ImprimeNome("Renata")
 modulo.ImprimeIdade(45)
 modulo.ImprimeDocumento(775035704)
 modulo.ImprimeLetra("A")
+modulo.ImprimeNiverData("3/11/1989")
 

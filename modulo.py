@@ -33,10 +33,27 @@ def ImprimeDocumento(documento):
     print(" Meu documento é " + str(documento))
 
 def ImprimeLetra(letra):
+    
     print("Minha letra preferida é " + letra)
 
 def ImprimeDataNiver(data):
-    print(" Meu aniversário é " + (data))
+    print(" Meu aniversário é " + data)
+
+#n3 = input("Digite aqui ")
+#print(type(n3))
 
 
+def FuncaoExemplo(arg):
+    print(type(arg))
+    print("arg: " + str(arg))
 
+
+FuncaoExemplo(18)
+#print(type(FuncaoExemplo("casa")))
+FuncaoExemplo("casa")
+FuncaoExemplo(True)
+FuncaoExemplo(1.5)
+x = input("qual a idade do seu cão? ")
+x = int(input("qual a idade do seu cão? "))
+
+FuncaoExemplo(x)
